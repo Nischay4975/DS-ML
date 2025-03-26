@@ -9,11 +9,11 @@ Through **visualizations and statistical analysis**, Idea is to identify trends 
 ### A Preliminary Overview at the company level ###
 To begin with, we can answer some basic questions with relation to the employees who are leaving. The total number of people who left the organisation is 3,571 out of 14,999 members (~ 23.8% ). Viewing the attrition per Division reveals no major insights. Apart from two divisions with markedly lower attrition rate, rest all divisions are more or less similar.
 
-(Place for division image)
+![Overall-Division-Distribution](./images/overall-division.png)
 
 Attrition based on the salary class suggests that salary, though is a factor, is not the only factor. A meaningful conclusion cannot be derived from the observations as the trend of lower salaried people attritioning in the hopes of higher pay outside is in line with expectations. An organisation cannot afford to simply increase salaries to retain all employees.
 
-(Place for Salary Image)
+![Overall-Salary-Distribution](./images/overall-salary.png)
 
 The number of employees with workplace accidents is too few to glean clear information of the influence of this parameter.
 
@@ -28,7 +28,7 @@ Tracking these two would give an idea of how an employee feels about their indiv
 
 #### Clear Patterns begin to emerge ####
 
-(Place for uncoloured image)
+![Clusters-Uncategorised](./images/clusters-uncategorised.png)
 
 We see three dominating clusters forming. We can categorise the clusters into three categories accordingly
 1. High Evaluation Low Satisfaction => They are rated highly but they are not satisfied with their situation.
@@ -37,7 +37,7 @@ We see three dominating clusters forming. We can categorise the clusters into th
 
 Clusters are coloured as per the above categorisation.
 
-(Place for the coloured image)
+![Clusters-Categorised](./images/clusters-categories.png)
 
 ### Not all attrition is bad! - Shortlisting Clusters for further analysis ###
 Companies would like to have some attrition to weed out non performers and bring in fresh blood. As such, it is important to pick and choose what clusters need to be focused upon for detailed analysis. Based on this, it is important to consider 2 clusters out of the three to analyse further. These clusters are both the ones with high evaluation, meaning that their absence is worse felt by the organisation relatively. Employee retention policies should be focussed on such high performers if the company doesn't want to let go of these people.
@@ -45,18 +45,18 @@ Companies would like to have some attrition to weed out non performers and bring
 ### Cluster 1 : High Evaluation but Low Satisfaction
 A customary analysis of division and salary influence on this cluster reveals they dont play any bigger role in this cluster compared to the overall population.
 
-(Image for Low Sat's salary and division)
+![Cluster1-division-salary](./images/low-sat-salary-division.png)
 
 Comparing the **efforts and rewards** for this cluster vis-a-vis the general population yields interesting facts. 
 1. Amongst the people who left the company, this cluster tends to have higher average monthly hours and higher number of projects.
 
-(Image for Low sat projects and monthly hours) 
+![Cluster1-workload](./images/high-sat-workload.png) 
 
-2. Another look based on the average hours of people belonging to this category reveals that, this category has a very high average monthly hours compared to any other grouping and that **all** such people left the organisation, evident from the lack of average hours of people in the cluster who stayed.
+1. Another look based on the average hours of people belonging to this category reveals that, this category has a very high average monthly hours compared to any other grouping and that **all** such people left the organisation, evident from the lack of average hours of people in the cluster who stayed.
 
-(Image for Low sat avg monthly hours)
+![Cluster1-avg-hours-comparison](./images/low-sat-avg-hours.png)
 
-3. There is a **lack of promotions** for this group, compared to the rest of the population.
+1. There is a **lack of promotions** for this group, compared to the rest of the population.
 
 (Image for Low sat promotions)
 
@@ -74,7 +74,7 @@ Comparing the **efforts and rewards** for this cluster vis-a-vis the general pop
 
 (Image for High sat projects and monthly hours) 
 
-2. There is also a remarked **lack of promotions** for this group, compared to the rest of the population.
+2. A curious thing is observed in this group that those who were promoted largely stayed whilst those who left didnt contain manu promotees. This makes this metric an important factor to decide attrition
 
 (Image for High sat promotions)
 
@@ -87,10 +87,10 @@ Comparing the **efforts and rewards** for this cluster vis-a-vis the general pop
 The main cause of attrition for the group is heavy workload combined with lack of promotions. The employees in this cluster experience high evaluation and the highest amount of work yet do not see their work rewarded and translated into promotions, prompting them to leave with Low Satisfaction. 
 
 #### Cluster 2 : High Evaluation and high Satisfaction
-The main cause of attrition for the group is the lack of promotions coupled with long time spent in the company. The employees in this cluster experience high evaluation and moderate workload. Lower workload might have increased the time spent in the company before attrition but ultimately lack of promotions causes them to ultimately leave.
+The main cause of attrition for the group is the lack of promotions coupled with long time spent in the company. The employees in this cluster experience high evaluation and moderate workload. The cluster is highly satisfied and lack of promotions for longer periods of working in the same company seem to be the driving cause of attrition as we can see that once promotions are given, the employees in this category are largely likely to stay
 
 #### Recommendations for the organsation
-1. A review of promotion policy is required. Most of the attrition of highly evaluated people occurs due to poor promotion policies which made the promotions percolating to these high performing clusters very low
+1. A thorough review of promotion policy is required. Most of the attrition of highly evaluated people occurs due to poor promotion policies which made the promotions percolating to these high performing clusters very low
 
 
 
