@@ -1,4 +1,5 @@
 **ABOUT THE PROJECT**
+
 This project is a EDA project based on the dataset in the csv file "Why are Employees Leaving.csv"
 The project contains both the raw EDA work done on the dataset and the storytelling that accompanies such work.
 
