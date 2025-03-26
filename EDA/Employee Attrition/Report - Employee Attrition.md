@@ -32,7 +32,6 @@ Tracking these two would give an idea of how an employee feels about their indiv
 
 <img src="./images/clusters-uncategorised.png" alt="Clusters-Uncategorised" width="500">
 
-
 We see three dominating clusters forming. We can categorise the clusters into three categories accordingly
 1. High Evaluation Low Satisfaction => They are rated highly but they are not satisfied with their situation.
 2. High Evaluation High Satisfaction => They are rated highly and they are satisfied with their situation
@@ -70,7 +69,6 @@ Comparing the **efforts and rewards** for this cluster vis-a-vis the general pop
 
 1. Comparing the time spent in the company, this group is middling. As such, this metric may not be an important factor in determining attrition for this cluster
 
-![Cluster1-time-spent](./images/low-sat-time-spend.png)
 <img src="./images/low-sat-time-spend.png" alt="Cluster1-time-spent" height="400">
 
 
