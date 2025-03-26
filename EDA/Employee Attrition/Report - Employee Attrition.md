@@ -14,8 +14,7 @@ To begin with, we can answer some basic questions with relation to the employees
 
 Attrition based on the salary class suggests that salary, though is a factor, is not the only factor. A meaningful conclusion cannot be derived from the observations as the trend of lower salaried people attritioning in the hopes of higher pay outside is in line with expectations. An organisation cannot afford to simply increase salaries to retain all employees.
 
-![Overall-Salary-Distribution](./images/overall-salary.png)
-<img src="./images/overall-salary.png" alt="Overall-Salary-Distribution" width="400">
+<img src="./images/overall-salary.png" alt="Overall-Salary-Distribution" height="400">
 
 
 The number of employees with workplace accidents is too few to glean clear information of the influence of this parameter.
@@ -31,8 +30,7 @@ Tracking these two would give an idea of how an employee feels about their indiv
 
 #### Clear Patterns begin to emerge ####
 
-![Clusters-Uncategorised](./images/clusters-uncategorised.png)
-<img src="./images/clusters-uncategorised.png" alt="Clusters-Uncategorised" width="400">
+<img src="./images/clusters-uncategorised.png" alt="Clusters-Uncategorised" width="500">
 
 
 We see three dominating clusters forming. We can categorise the clusters into three categories accordingly
@@ -42,8 +40,7 @@ We see three dominating clusters forming. We can categorise the clusters into th
 
 Clusters are coloured as per the above categorisation.
 
-![Clusters-Categorised](./images/clusters-categories.png)
-<img src="./images/clusters-categories.png" alt="Clusters-Categorised" width="400">
+<img src="./images/clusters-categories.png" alt="Clusters-Categorised" width="600">
 
 
 ### Not all attrition is bad! - Shortlisting Clusters for further analysis ###
@@ -52,58 +49,50 @@ Companies would like to have some attrition to weed out non performers and bring
 ### Cluster 1 : High Evaluation but Low Satisfaction
 A customary analysis of division and salary influence on this cluster reveals they dont play any bigger role in this cluster compared to the overall population.
 
-![Cluster1-division-salary](./images/low-sat-salary-division.png)
-<img src="./images/low-sat-salary-division.png" alt="Cluster1-division-salary" width="400">
+<img src="./images/low-sat-salary-division.png" alt="Cluster1-division-salary" width="600">
 
 
 Comparing the **efforts and rewards** for this cluster vis-a-vis the general population yields interesting facts. 
 1. Amongst the people who left the company, this cluster tends to have higher average monthly hours and higher number of projects.
 
-![Cluster1-workload](./images/high-sat-workload.png) 
-<img src="./images/high-sat-workload.png" alt="Cluster1-workload" width="400">
+<img src="./images/high-sat-workload.png" alt="Cluster1-workload" width="600">
 
 
 1. Another look based on the average hours of people belonging to this category reveals that, this category has a very high average monthly hours compared to any other grouping and that **all** such people left the organisation, evident from the lack of average hours of people in the cluster who stayed.
 
-![Cluster1-avg-hours-comparison](./images/low-sat-avg-hours.png)
-<img src="./images/low-sat-avg-hours.png" alt="Cluster1-avg-hours-comparison" width="400">
+<img src="./images/low-sat-avg-hours.png" alt="Cluster1-avg-hours-comparison" height="400">
 
 
 1. There is a **lack of promotions** for this group, compared to the rest of the population.
 
-![Cluster1-promotions](./images/low-sat-promotions.png)
-<img src="./images/low-sat-promotions.png" alt="Cluster1-promotions" width="400">
+<img src="./images/low-sat-promotions.png" alt="Cluster1-promotions" height="400">
 
 
 1. Comparing the time spent in the company, this group is middling. As such, this metric may not be an important factor in determining attrition for this cluster
 
 ![Cluster1-time-spent](./images/low-sat-time-spend.png)
-<img src="./images/low-sat-time-spend.png" alt="Cluster1-time-spent" width="400">
+<img src="./images/low-sat-time-spend.png" alt="Cluster1-time-spent" height="400">
 
 
 ### Cluster 2 : High Evaluation and High Satisfaction
 A customary analysis of division and salary influence on this cluster reveals they dont play any bigger role in this cluster compared to the overall population.
 
-![Cluster2-division-salary](./images/high-sat-division.png)
-<img src="./images/high-sat-division.png" alt="Cluster2-division-salary" width="400">
+<img src="./images/high-sat-division.png" alt="Cluster2-division-salary" width="600">
 
 
 Comparing the **efforts and rewards** for this cluster vis-a-vis the general population yields interesting facts. 
 1. Amongst the people who left the company, this cluster tends to have moderate average monthly hours and moderate number of projects.
 
-![Cluster2-workload](./images/high-sat-workload.png)
-<img src="./images/high-sat-workload.png" alt="Cluster2-workload" width="400">
+<img src="./images/high-sat-workload.png" alt="Cluster2-workload" width="600">
 
 
 2. A curious thing is observed in this group that those who were promoted largely stayed whilst those who left didnt contain manu promotees. This makes this metric an important factor to decide attrition
 
-![Cluster2-promotions](./images/promotion-high-sat.png)
-<img src="./images/promotion-high-sat.png" alt="Cluster2-promotions" width="400">
+<img src="./images/promotion-high-sat.png" alt="Cluster2-promotions" height="400">
 
 1. Comparing the time spent in the company, this group contains employees with the **highest longevity**. As such, this metric may be an important factor in determining attrition for this cluster.
 
-![Cluster2-time-spent](./images/time-spent-high-sat.png)
-<img src="./images/time-spent-high-sat.png" alt="Cluster2-time-spent" width="400">
+<img src="./images/time-spent-high-sat.png" alt="Cluster2-time-spent" height="400">
 
 
 ### Conclusions from the EDA
