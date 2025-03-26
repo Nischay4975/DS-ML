@@ -9,7 +9,7 @@ Through **visualizations and statistical analysis**, Idea is to identify trends 
 ### A Preliminary Overview at the company level ###
 To begin with, we can answer some basic questions with relation to the employees who are leaving. The total number of people who left the organisation is 3,571 out of 14,999 members (~ 23.8% ). Viewing the attrition per Division reveals no major insights. Apart from two divisions with markedly lower attrition rate, rest all divisions are more or less similar.
 
-![Overall-Division-Distribution](./images/overall-division.png)
+![Overall-Division-Distribution](./images/overall-division.png){width="100"}
 
 Attrition based on the salary class suggests that salary, though is a factor, is not the only factor. A meaningful conclusion cannot be derived from the observations as the trend of lower salaried people attritioning in the hopes of higher pay outside is in line with expectations. An organisation cannot afford to simply increase salaries to retain all employees.
 
