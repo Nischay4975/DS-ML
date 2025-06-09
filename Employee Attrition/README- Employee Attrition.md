@@ -8,5 +8,5 @@ Following that is Machine Learning Demo that showcases use of ML Techniques to d
 1. Employee Attrition.twb => Tableau Workbook containing the EDA work done on the dataset.
 2. Why are  employees leaving.csv => Dataset that acts as the source of data for EDA.
 3. Understanding the data.md => Provides insights about the dataset and its contents for preliminary understandings.
-4. EDA Report - Employeee Attrition.md => Final Report on the EDA along with accompanying story.
-5. EDA Employee Attrition.ipynb => Containes Tableau findings but done on a Jupyter Notebook
+4. EDA Folder => Exploratory Data Analysis related to the dataset
+5. Decision Tree Analysis.ipynb => Contains a custom built Decision Tree model and model built using the SciKit Learn Python Library. It contains observations on the accuracy and depth to showcase the importance of setting an appropriate depth hyper-parameter.
