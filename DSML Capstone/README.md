@@ -16,3 +16,6 @@ This project employs a comprehensive data science approach, including:
 ---
 
 *This project represents a practical application of data science techniques in the rapidly evolving commercial space industry, demonstrating how data-driven insights can inform strategic business decisions in competitive markets.*
+
+
+This project was done as part of a professional Certification Course on Coursera called "IBM Data Science"
